@@ -14,12 +14,55 @@
 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Styles -->
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #1C1C1C;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
-<body>
+<body class="text-[#777777] manrope text-lg font-medium">
     <!-- Header Section Srart -->
     <header>
-
+        <!-- Hero Section Start -->
+        <section id="hero" class="py-12">
+            <div class="container mx-auto flex flex-col sm:flex-row-reverse gap-8 px-6 sm:px-0">
+                <div class="relative basis-1/2">
+                    <img src="./images/banner.png" alt="" class="">
+                    <div
+                        class="bg-white flex items-center gap-2 sm:gap-4 px-4 py-4 shadow-lg w-60 rounded-xl bottom-0 z-10 absolute">
+                        <img src="images/star.png" alt="">
+                        <div class="">
+                            <h4>5.00</h4>
+                            <p class="text-base">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content space-y-7 basis-1/2">
+                    <h1 class="text-5xl xl:text-[5rem] font-extrabold leading-tight">It's good <br> tea time at The <br>
+                        Tea House</h1>
+                    <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <a href="#"
+                        class="bg-gradient-to-r from-[#FF8938] to-[#F00] text-white inline-block p-5 rounded-xl">Explore
+                        More
+                        <img src="images/arrow.png" alt="" class="inline">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
     </header>
     <!-- Header Section End -->
     <!-- main Section Srart -->
